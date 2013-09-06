@@ -38,8 +38,8 @@
 		6B69985617D9C9D200E88717 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6B69985717D9C9D200E88717 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B69985A17D9C9D200E88717 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		6BE0772D17D9D12D00E55291 /* aaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aaViewController.h; sourceTree = "<group>"; };
-		6BE0772E17D9D12D00E55291 /* aaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aaViewController.m; sourceTree = "<group>"; };
+		6BE0772D17D9D12D00E55291 /* aaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aaViewController.h; path = ../aaViewController.h; sourceTree = "<group>"; };
+		6BE0772E17D9D12D00E55291 /* aaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = aaViewController.m; path = ../aaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,6 @@
 		6B69983217D9C9D200E88717 = {
 			isa = PBXGroup;
 			children = (
-				6BE0772D17D9D12D00E55291 /* aaViewController.h */,
-				6BE0772E17D9D12D00E55291 /* aaViewController.m */,
 				6B69984417D9C9D200E88717 /* test */,
 				6B69983D17D9C9D200E88717 /* Frameworks */,
 				6B69983C17D9C9D200E88717 /* Products */,
@@ -88,6 +86,8 @@
 		6B69984417D9C9D200E88717 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				6BE0772D17D9D12D00E55291 /* aaViewController.h */,
+				6BE0772E17D9D12D00E55291 /* aaViewController.m */,
 				6B69984D17D9C9D200E88717 /* AppDelegate.h */,
 				6B69984E17D9C9D200E88717 /* AppDelegate.m */,
 				6B69985617D9C9D200E88717 /* ViewController.h */,
